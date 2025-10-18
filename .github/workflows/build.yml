@@ -1,4 +1,4 @@
-name: Build Chrome Extension
+name: Build and Test Chrome Extension
 
 on:
   push:
@@ -20,11 +20,13 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies (if any)
+      - name: Install dependencies
         run: |
-          if [ -f package.json ]; then
-            npm install
-          fi
+          npm install
+
+      - name: Run tests
+        run: |
+          npm test
 
       - name: Zip Chrome extension
         run: |
