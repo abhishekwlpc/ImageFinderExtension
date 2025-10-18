@@ -1,4 +1,4 @@
-import { filterImages } from "./imageUtils.js";
+const { filterImages } = require("./imageUtils.js");
 
 describe("Image filtering", () => {
     test("should filter out small icons", () => {

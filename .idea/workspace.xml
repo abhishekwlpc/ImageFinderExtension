@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Added the test files" />
+    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Added json files">
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/imageUtils.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/imageUtils.test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +51,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abhis\Downloads\ImageFinderExtension\popup" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760773100350</updated>
       <workItem from="1760773101392" duration="312000" />
-      <workItem from="1760773664642" duration="4544000" />
+      <workItem from="1760773664642" duration="4854000" />
     </task>
     <task id="LOCAL-00001" summary="Modify the files and added the Github Action workflow">
       <option name="closed" value="true" />
@@ -89,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760782155028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added json files">
+      <option name="closed" value="true" />
+      <created>1760782349121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760782349121</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +117,7 @@
     <MESSAGE value="Modify the files and added the Github Action workflow" />
     <MESSAGE value="Removed unnecessary comments" />
     <MESSAGE value="Added the test files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the test files" />
+    <MESSAGE value="Added json files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added json files" />
   </component>
 </project>
