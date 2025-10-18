@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Modified files" />
+    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Modified file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abhis\Downloads\ImageFinderExtension" />
       <recent name="C:\Users\abhis\Downloads\ImageFinderExtension\popup" />
     </key>
   </component>
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760773100350</updated>
       <workItem from="1760773101392" duration="312000" />
-      <workItem from="1760773664642" duration="7491000" />
+      <workItem from="1760773664642" duration="8288000" />
     </task>
     <task id="LOCAL-00001" summary="Modify the files and added the Github Action workflow">
       <option name="closed" value="true" />
@@ -150,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760784922738</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modified files">
+      <option name="closed" value="true" />
+      <created>1760785386374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760785386374</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modified file">
+      <option name="closed" value="true" />
+      <created>1760786679125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760786679125</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +181,7 @@
     <MESSAGE value="Added json files" />
     <MESSAGE value="Modified json files" />
     <MESSAGE value="Modified files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified files" />
+    <MESSAGE value="Modified file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified file" />
   </component>
 </project>

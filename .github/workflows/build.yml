@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: image-finder-extension
-          path: build/image-finder-extension.zip
+          path: build/image_finder_extension.zip
