@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Added json files">
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Modified json files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/imageUtils.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/imageUtils.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760773100350</updated>
       <workItem from="1760773101392" duration="312000" />
-      <workItem from="1760773664642" duration="4854000" />
+      <workItem from="1760773664642" duration="5545000" />
     </task>
     <task id="LOCAL-00001" summary="Modify the files and added the Github Action workflow">
       <option name="closed" value="true" />
@@ -106,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760782349121</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modified json files">
+      <option name="closed" value="true" />
+      <created>1760782714254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760782714254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,7 @@
     <MESSAGE value="Removed unnecessary comments" />
     <MESSAGE value="Added the test files" />
     <MESSAGE value="Added json files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added json files" />
+    <MESSAGE value="Modified json files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified json files" />
   </component>
 </project>
