@@ -1,23 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
+  <title>Image Detector</title>
   <style>
-    body { font-family: Arial, sans-serif; width: 420px; padding: 8px; }
-    .img-row { display:flex; gap:8px; margin-bottom:8px; align-items:center; }
-    img.thumb { width:80px; height:80px; object-fit:cover; border:1px solid #ddd; }
-    .info { flex:1; font-size:12px; }
-    button { margin-left:6px; }
+    body {
+      font-family: Arial;
+      width: 300px;
+      padding: 10px;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+      margin: 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 5px;
+    }
+    img:hover {
+      border: 2px solid blue;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
-<h3>Images on page</h3>
-<div id="list">Loading...</div>
-<hr>
-<label>
-  Google Vision API Key (optional):
-  <input id="visionKey" style="width:100%" placeholder="Paste API key (optional)"/>
-</label>
+<h3>Detected Images</h3>
+<div id="images"></div>
+<button id="downloadAll">Download All</button>
 <script src="popup.js"></script>
 </body>
 </html>
