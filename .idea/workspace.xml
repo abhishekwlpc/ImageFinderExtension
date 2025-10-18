@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Modified json files">
+    <list default="true" id="1716818c-95cc-4793-b88d-31231d17904b" name="Changes" comment="Modified files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1760773100350</updated>
       <workItem from="1760773101392" duration="312000" />
-      <workItem from="1760773664642" duration="5545000" />
+      <workItem from="1760773664642" duration="6890000" />
     </task>
     <task id="LOCAL-00001" summary="Modify the files and added the Github Action workflow">
       <option name="closed" value="true" />
@@ -113,7 +112,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760782714254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modified files">
+      <option name="closed" value="true" />
+      <created>1760783250035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760783250035</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modified files">
+      <option name="closed" value="true" />
+      <created>1760783455604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760783455604</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modified files">
+      <option name="closed" value="true" />
+      <created>1760784585320</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760784585320</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +149,7 @@
     <MESSAGE value="Added the test files" />
     <MESSAGE value="Added json files" />
     <MESSAGE value="Modified json files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified json files" />
+    <MESSAGE value="Modified files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified files" />
   </component>
 </project>
