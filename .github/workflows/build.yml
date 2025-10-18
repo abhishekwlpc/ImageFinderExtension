@@ -5,35 +5,41 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install dependencies
         run: |
-          npm install
+          npm ci
+          npm install jest-environment-jsdom --save-dev
 
-      - name: Run tests
+      - name: Run Lint
         run: |
-          npm test
+          npx eslint . || true
 
-      - name: Zip Chrome extension
+      - name: Run Tests
         run: |
-          mkdir -p build
-          zip -r build/image-finder-extension.zip . -x "*.git*" "node_modules/*" "*.github/*"
+          node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage
 
-      - name: Upload artifact
+      - name: Create build folder
+        run: mkdir -p build
+
+      - name: Package Chrome Extension
+        run: |
+          zip -r build/image-finder-extension.zip . -x "node_modules/*" ".github/*" "tests/*"
+
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
           name: image-finder-extension
